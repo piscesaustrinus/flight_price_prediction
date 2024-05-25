@@ -1,0 +1,95 @@
+body {
+    background-color: #E0F7FA;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: #81D4FA;
+    border-bottom: 2px solid #0288D1;
+}
+
+.navbar-brand {
+    color: #FFFFFF !important;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card {
+    border: 1px solid #81D4FA;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(129, 212, 250, 0.5);
+    background-color: #E1F5FE;
+    position: relative;
+}
+
+.card-title {
+    color: #0288D1;
+    font-weight: bold;
+}
+
+input[type="datetime-local"], select {
+    border: 1px solid #81D4FA;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #0288D1;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0277BD;
+}
+
+h3 {
+    color: #0288D1;
+    font-weight: bold;
+}
+
+p {
+    color: #0288D1;
+}
+
+label {
+    color: #0288D1;
+    font-weight: bold;
+}
+
+.plane {
+    width: 50px;
+    height: 50px;
+    background: url('static/css/plane.jpeg') no-repeat center center;
+    background-size: contain;
+}
+
+.plane-top-left {
+    top: 10px;
+    left: 10px;
+}
+
+.plane-top-right {
+    top: 10px;
+    right: 10px;
+}
+
+.plane-bottom-left {
+    bottom: 10px;
+    left: 10px;
+}
+
+.plane-bottom-right {
+    bottom: 10px;
+    right: 10px;
+}
+
+
