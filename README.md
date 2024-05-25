@@ -25,3 +25,9 @@ This project predicts flight prices to help travelers find the best time to buy 
     "Source": "Delhi",
     "Destination": "Cochin"
   }
+- **Output:**
+  ```json 
+   {
+  "predicted_price": 4500
+   }
+
